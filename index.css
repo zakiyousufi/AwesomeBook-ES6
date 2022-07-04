@@ -34,4 +34,32 @@ body {
   border: 2px solid #000;
   padding: 1.2rem;
 }
+.year-con {
+  margin-top: 1.2rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.year {
+  font-size: 1.6rem;
+}
+
+.page-title {
+  font-size: 1.8rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+  font-size: 1.8rem;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+.nav-link--active {
+  color: #4d4dff;
+}
 
