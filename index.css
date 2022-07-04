@@ -63,3 +63,25 @@ body {
   color: #4d4dff;
 }
 
+.section-title {
+  text-align: center;
+  margin-top: 2.4rem;
+  margin-bottom: 1.8rem;
+  font-size: 2rem;
+}
+
+.books-container {
+  margin-bottom: 2.4rem;
+  border: 2px solid #000;
+}
+
+.book {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem;
+  font-size: 1.6rem;
+}
+
+.book:nth-child(odd) {
+  background-color: #e6e6e6;
+}
