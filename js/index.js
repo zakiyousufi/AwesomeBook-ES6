@@ -1,8 +1,8 @@
-import bookAddView from './modules/view/bookAddView';
-import bookView from './modules/view/bookView';
-import { DateTime } from './modules/luxon.js';
-import * as model from './modules/model.js';
-import navigationView from './modules/view/navigationView';
+import bookAddView from '../modules/view/bookAddView';
+import bookView from '../modules/view/bookView';
+// import { DateTime } from '../modules/luxon';
+// import * as model from '../modules/model';
+import navigationView from '../modules/view/navigationView';
 
 const addBook = () => {
   const [title, author] = bookAddView.getFormValues();
