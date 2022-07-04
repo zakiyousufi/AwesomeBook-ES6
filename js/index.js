@@ -28,4 +28,3 @@ const addBook = () => {
   };
   
   init();
-  
