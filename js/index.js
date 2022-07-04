@@ -8,3 +8,9 @@ const addBook = () => {
     model.addBook(title, author);
     bookView.render(model.state.books);
   };
+
+  const removeBook = (id) => {
+    model.removeBook(id);
+    bookView.render(model.state.books);
+  };
+  
