@@ -1,8 +1,9 @@
-import Books from './modules/Books.js';
 
-import manageDate from './modules/addDate.js';
+import Books from '../modules/Books.js';
 
-import navMenu from './modules/navMenu.js';
+import manageDate from '../modules/addDate.js';
+
+import navMenu from '../modules/navMenu.js';
 
 const library = new Books(JSON.parse(localStorage.getItem('books')));
 window.addEventListener('DOMContentLoaded', () => {
