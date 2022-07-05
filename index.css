@@ -1,11 +1,11 @@
 :root {
-  --dark: #374151;
-  --darker: #1f2937;
-  --darkest: #111827;
-  --light: #eee;
-  --pink: #ec4899;
-  --purple: #8b5cf6;
-  --gray: #808080;
+  --dark: #000638;
+  --darker: #020c6e;
+  --darkest: #070031;
+  --light: rgb(57, 53, 255);
+  --pink: #632bff;
+  --purple: #8b71ff;
+  --gray: #bfb3db;
 }
 
 * {
@@ -30,7 +30,7 @@ body {
   padding: 1rem;
   justify-content: space-between;
   border: 3px solid #808080;
-  border-radius: 1rem;
+  border-radius: 2px;
   width: 88%;
   margin: 12px auto 0 auto;
 }
