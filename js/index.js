@@ -1,4 +1,4 @@
-
+/* eslint-disable import/extensions */
 import Books from '../modules/Books.js';
 
 import manageDate from '../modules/addDate.js';
