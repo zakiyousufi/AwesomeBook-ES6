@@ -2,10 +2,10 @@
   --dark: #000638;
   --darker: #020c6e;
   --darkest: #070031;
-  --light: rgb(57, 53, 255);
-  --pink: #632bff;
-  --purple: #8b71ff;
-  --gray: #bfb3db;
+  --light: rgb(221, 220, 255);
+  --pink: #cfbeff;
+  --purple: #e5e0ff;
+  --gray: #f9f7ff;
 }
 
 * {
@@ -64,6 +64,10 @@ button {
   border: none;
   outline: none;
   background: none;
+}
+
+a{
+  color: #fff;
 }
 
 .nav-list li {
